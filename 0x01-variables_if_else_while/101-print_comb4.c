@@ -17,18 +17,18 @@ int main(void)
 			for (n = i + 2; n <= 57; n++)
 			{
 				if (i >= j || j >= n)
-                                {
-                                        continue;
+				{
+					continue;
                                 }
-                                putchar(i);
-                                putchar(j);
-                                putchar(n);
-                                if (i == 55 && j == 56 && n == 57)
-                                {
-                                        continue;
+				putchar(i);
+				putchar(j);
+				putchar(n);
+				if (i == 55 && j == 56 && n == 57)
+				{
+					continue;
                                 }
-                                putchar(',');
-                                putchar(' ');
+				putchar(',');
+				putchar(' ');
 
                         }
 
