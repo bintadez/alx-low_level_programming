@@ -22,7 +22,7 @@ int main(void)
                                 }
                                 putchar(i);
                                 putchar(j);
-                                putchar('n');
+                                putchar(n);
                                 if (i == 55 && j == 56 && n == 57)
                                 {
                                         continue;
