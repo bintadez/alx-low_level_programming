@@ -1,0 +1,7 @@
+#include <stdio.h>
+/**
+*main - entry point
+*description:
+*Return: Always 0 (success)
+*/
+int main(void){}
