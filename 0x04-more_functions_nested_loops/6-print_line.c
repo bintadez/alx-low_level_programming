@@ -2,7 +2,7 @@
 
 /**
  * print_line- draws a straight line in the terminal
- * @n repition of the character
+ * @n: repition of the character
  *
  * Return: no return
  */
