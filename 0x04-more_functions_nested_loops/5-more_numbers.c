@@ -9,12 +9,12 @@
 
 void more_numbers(void)
 {
-	char c;
+	int c;
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 1; i <= 10; i++)
 	{
-		for (c = '0'; c <= '14'; c++)
+		for (c = 0; c <= 14; c++)
 		{
 			if (j >= 10)
 				_putchar('1');
