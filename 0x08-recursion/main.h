@@ -1,6 +1,3 @@
-MAIN.H CODE
-
-
 #ifndef MAIN_H
 #define MAIN_H
 
