@@ -19,22 +19,19 @@ int main(void)
 				if (i >= j || j >= n)
 				{
 					continue;
-                                }
+				}
 				putchar(i);
 				putchar(j);
 				putchar(n);
 				if (i == 55 && j == 56 && n == 57)
 				{
 					continue;
-                                }
+				}
 				putchar(',');
 				putchar(' ');
-
-                        }
-
-			
-                }
-        }
-        putchar('\n');
-        return (0);
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
