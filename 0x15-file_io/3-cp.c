@@ -16,7 +16,7 @@ char *create_buffer(char *file)
 
 	buff = malloc(sizeof(char) * 1024);
 
-	if (buffer == NULL)
+	if (buff == NULL)
 	{
 		dprintf(STDERR_FILENO,
 			"Error: Can't write to %s\n", file);
@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't write to %s\n", argv[2]);
-			free(buff;
+			free(buff);
 			exit(99);
 		}
 
